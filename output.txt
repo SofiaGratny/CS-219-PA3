@@ -1,0 +1,120 @@
+MOV R1, #0x72DF9901
+Register [0]  {0}
+Register [1]  {72df9901}
+Register [2]  {0}
+Register [3]  {0}
+Register [4]  {0}
+Register [5]  {0}
+Register [6]  {0}
+Register [7]  {0}
+
+MOV R2, #0x2E0B484A
+Register [0]  {0}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {0}
+Register [4]  {0}
+Register [5]  {0}
+Register [6]  {0}
+Register [7]  {0}
+
+ADD R3, R1, R2
+Register [0]  {0}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {0}
+Register [5]  {0}
+Register [6]  {0}
+Register [7]  {0}
+
+SUB R4, R3, R2
+Register [0]  {0}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {0}
+Register [6]  {0}
+Register [7]  {0}
+
+mov r0, #0xAAA5555
+Register [0]  {aaa5555}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {0}
+Register [6]  {0}
+Register [7]  {0}
+
+and r0, r0, r4
+Register [0]  {28a1101}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {0}
+Register [6]  {0}
+Register [7]  {0}
+
+orr r0, r2, r3
+Register [0]  {aeebe94b}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {0}
+Register [6]  {0}
+Register [7]  {0}
+
+xor r5, r3, r4
+Register [0]  {aeebe94b}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {d235784a}
+Register [6]  {0}
+Register [7]  {0}
+
+MOV R6, #0xFFFFFFFF
+Register [0]  {aeebe94b}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {d235784a}
+Register [6]  {ffffffff}
+Register [7]  {0}
+
+ASR R7, R6, #2
+Register [0]  {aeebe94b}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {d235784a}
+Register [6]  {ffffffff}
+Register [7]  {3fffffff}
+
+lsr R7, R6, #2
+Register [0]  {aeebe94b}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {d235784a}
+Register [6]  {ffffffff}
+Register [7]  {3fffffff}
+
+LSL R6, R7, #1
+Register [0]  {aeebe94b}
+Register [1]  {72df9901}
+Register [2]  {2e0b484a}
+Register [3]  {a0eae14b}
+Register [4]  {72df9901}
+Register [5]  {d235784a}
+Register [6]  {7ffffffe}
+Register [7]  {3fffffff}
+
